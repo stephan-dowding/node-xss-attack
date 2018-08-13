@@ -1,0 +1,43 @@
+{
+  "name": "xss-attack",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "babel-node src/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephan-dowding/node-xss-attack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephan-dowding/node-xss-attack/issues"
+  },
+  "homepage": "https://github.com/stephan-dowding/node-xss-attack#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jest": "^23.4.2",
+    "pug": "^2.0.3",
+    "sqlite": "^2.9.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "supertest": "^3.1.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
