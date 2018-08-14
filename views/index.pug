@@ -1,0 +1,14 @@
+html
+  head
+    title Injection
+  body
+    h1 New Comment
+      form(method="post")
+        textarea(name='comment')
+        br
+        button(type='submit') Post Comment
+    h1 Comments
+    each comment in comments
+      p!= comment.comment
+      br
+        
