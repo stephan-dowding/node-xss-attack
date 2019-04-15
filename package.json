@@ -18,15 +18,15 @@
   "homepage": "https://github.com/stephan-dowding/node-xss-attack#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "jest": "^23.4.2",
+    "express": "^4.16.4",
     "pug": "^2.0.3",
-    "sqlite": "^2.9.2"
+    "sqlite": "^3.0.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "supertest": "^3.1.0"
+    "jest": "^24.7.1",
+    "supertest": "^4.0.2"
   },
   "babel": {
     "presets": [
